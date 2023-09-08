@@ -1,3 +1,25 @@
+@import ".././../styles/variables.scss";
 .menu{
-    background-color: bisque;
+    .item{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        .listItem{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+            border-radius: 5px;
+            &:hover{
+                background-color: $soft-bg;
+            }
+        }
+        .title{
+            font-size: 12px;
+            font-weight: 200;
+            color:$soft-color;
+        }
+    }
 }
