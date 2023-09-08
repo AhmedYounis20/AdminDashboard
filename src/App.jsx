@@ -6,16 +6,15 @@ import Navbar from './components/navbar/Navbar'
 import Menu from './components/menu/Menu'
 import Footer from './components/footer/Footer'
 import Login from './pages/login/Login'
-
+import "./styles/global.scss"
 
 const Layout=()=>{
   return (
     <div className="main">
       <Navbar/>
       <div className="container">
-        <div className="menucontainer">
+        <div className="menuContainer">
       <Menu/>
-
         </div>
         <div className="contentContainer">
           <Outlet />
