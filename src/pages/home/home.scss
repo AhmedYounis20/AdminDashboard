@@ -3,11 +3,12 @@
     display: grid;
     gap:10px;
     grid-template-columns: repeat(4,1fr) ;
-    grid-auto-rows: minmax(180px,auto) ;
+    grid-auto-rows: minmax(auto,auto) ;
     .box{
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
         border: 1px solid $soft-bg;
+        height:100%;
     }
     
     .box1{

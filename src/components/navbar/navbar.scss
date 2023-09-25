@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,8 +41,8 @@
             gap: 10px;
 
             img {
-                height: 45px;
-                width: 45px;
+                height: 40px;
+                width: 40px;
                 object-fit: cover;
                 border-radius: 50px;
             }
